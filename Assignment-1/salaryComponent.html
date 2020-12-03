@@ -108,10 +108,8 @@
         }
 
         ReactDOM.render(
-            /* React.createElement(Greeter, { template : 'Have a good day!'}),  */
-            <div>
-                <Greeter template="Have a good day!" x="100" y={200} />
-            </div>,
+            React.createElement(SalaryCalculator, document.getElementById('root')),
+
             document.getElementById('root')
         )
     </script>
